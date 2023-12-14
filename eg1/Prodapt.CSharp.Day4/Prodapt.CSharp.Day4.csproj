@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>Prodapt.CSharp.Day4.Example</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Prodapt.CSharp.Library">
+      <HintPath>..\..\Prodapt.CSharp.Library\Prodapt.CSharp.Library\bin\Debug\net8.0\Prodapt.CSharp.Library.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
